@@ -28,16 +28,15 @@ Object.keys()
 */
 
 const user = {
-  name: 'Oj',
-  age: 85,
-  email: 'sacultang@gmail.com'
+	name: "Oj",
+	age: 85,
+	email: "sacultang@gmail.com",
 }
 
 const keys = Object.keys(user)
 console.log(keys)
 
-console.log(user['email'])
+console.log(user["email"])
 console.log(user.email)
-
-const values = keys.map(key => user[key])
+const values = keys.map((key) => user[key])
 console.log(values)
